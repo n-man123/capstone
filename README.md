@@ -19,3 +19,15 @@ Q. What ML models are you planning to use?
 
 I'm using Gensim's LDA library to do my initial analysis.  I will also explore Google's word2vec soon.
 
+To-Do:
+Describe your techniques: break the data pipeline into portions and describe each one.
+Can you anticipate problems, what are they, do you need to overcome them now? How do you overcome them?
+How far do you anticipate to take the project in the allotted time frame?
+Any other repos, libraries and other tools that you're considering using? Are you citing them? Are you acknowledging them for their contribution?
+Data
+should be a CSV or something similar representing a feature matrix
+if the data requires specialized processing (e.g. MIDI files converted to feature matrix), you should provide the processed data
+if the data is not tabular (i.e. can't be represented in CSV), it should should otherwise be fully processed so that it's immediately consumable by your ML algorithms
+you don't have to include all your data, but you must include at least a few rows
+if you're scraping, do not provide only a link to a website; provide the data already scraped.
+
